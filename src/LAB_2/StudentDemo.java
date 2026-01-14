@@ -1,3 +1,5 @@
+package LAB_2;
+
 import java.util.Scanner;
 
 class Student {
@@ -32,11 +34,11 @@ class StudentDemo {
             }
         }
 
-        System.out.println("\nStudent Details:");
+        System.out.println("\nLAB_2.Student Details:");
         for (int i = 0; i < n; i++) {
             System.out.println(s[i].roll + " " + s[i].name + " " + s[i].cgpa);
         }
 
-        System.out.println("Student with lowest CGPA: " + lowName);
+        System.out.println("LAB_2.Student with lowest CGPA: " + lowName);
     }
 }

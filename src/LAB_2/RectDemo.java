@@ -1,3 +1,5 @@
+package LAB_2;
+
 import java.util.Scanner;
 
 class Rectangle {
@@ -9,11 +11,11 @@ class Rectangle {
     }
 
     void area() {
-        System.out.println("Area of Rectangle = " + (length * breadth));
+        System.out.println("Area of LAB_2.Rectangle = " + (length * breadth));
     }
 
     void perimeter() {
-        System.out.println("Perimeter of Rectangle = " + 2 * (length + breadth));
+        System.out.println("Perimeter of LAB_2.Rectangle = " + 2 * (length + breadth));
     }
 }
 

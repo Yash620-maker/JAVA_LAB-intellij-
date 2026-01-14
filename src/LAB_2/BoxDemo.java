@@ -1,3 +1,5 @@
+package LAB_2;
+
 import java.util.Scanner;
 
 class Box {
@@ -8,7 +10,7 @@ class Box {
     }
 }
 
-class BoxDemo {
+class Demo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Box b = new Box();
@@ -20,6 +22,6 @@ class BoxDemo {
         System.out.print("Enter height: ");
         b.height = sc.nextDouble();
 
-        System.out.println("Volume of Box = " + b.volume());
+        System.out.println("Volume of LAB_2.Box = " + b.volume());
     }
 }
