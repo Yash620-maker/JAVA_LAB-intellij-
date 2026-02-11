@@ -1,3 +1,5 @@
+package LAB_8;
+
 import java.util.Scanner;
 
 public class CharacterPositionDemo {
